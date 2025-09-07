@@ -12,9 +12,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:manual_qa_helper/pages/homepage/homepage_viewmodel.dart';
+import 'package:manual_qa_helper/pages/settings/settings_viewmodel.dart';
 
 class HomePageView extends StatefulWidget {
-  const HomePageView({super.key});
+  final SettingsViewModel viewModel;
+  const HomePageView({super.key, required this.viewModel});
 
   @override
   State<HomePageView> createState() => _HomePageViewState();

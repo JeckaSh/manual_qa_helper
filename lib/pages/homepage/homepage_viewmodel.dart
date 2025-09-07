@@ -16,15 +16,11 @@ class HomepageViewModel {
   String get title => _title;
   List<MenuItem> get menuItems => _menuItems;
 
-  String _title = 'Manual QA Helper';
+  final String _title = 'Manual QA Helper';
   final List<MenuItem> _menuItems = [
     MenuItem(title: 'Ручное тестирование', route: '/manual_qa'),
     MenuItem(title: 'GIT для тестировщика', route: '/git_for_qa'),
     MenuItem(title: 'Настройки', route: '/settings'),
-    MenuItem(title: 'О приложении', route: 'about_app'),
+    MenuItem(title: 'О приложении', route: '/about_app'),
   ];
-
-  void updateTitle(String newTitle) {
-    _title = newTitle;
-  }
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:manual_qa_helper/pages/about.dart';
+import 'package:manual_qa_helper/pages/git_articles.dart';
 import 'package:manual_qa_helper/pages/manual_qa.dart';
 import 'package:manual_qa_helper/pages/settings.dart';
 
@@ -43,6 +44,7 @@ class MainMenu extends StatelessWidget {
                   Get.off(() => ManualQaPage());
                   break;
                 case 1:
+                  Get.off(() => GitArticlesPage());
                   break;
                 case 2:
                   Get.off(() => SettingsPage());

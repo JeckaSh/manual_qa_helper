@@ -4,8 +4,8 @@ import 'package:manual_qa_helper/controllers/article_controller.dart';
 import 'package:manual_qa_helper/pages/article.dart';
 import 'package:manual_qa_helper/pages/homepage.dart';
 
-class ManualQaPage extends StatelessWidget {
-  ManualQaPage({super.key});
+class GitArticlesPage extends StatelessWidget {
+  GitArticlesPage({super.key});
 
   final ArticleController _articleController = Get.find();
 
@@ -16,15 +16,15 @@ class ManualQaPage extends StatelessWidget {
     }
 
     return Scaffold(
-      appBar: AppBar(title: Text('Ручное тестирование ПО')),
+      appBar: AppBar(title: Text('GIT для тестировщиков')),
       body: SafeArea(
         child: Column(
           children: [
             Expanded(
               child: ListView.builder(
-                itemCount: _articleController.articles.length,
+                itemCount: _articleController.gitArticles.length,
                 itemBuilder: (context, index) {
-                  final article = _articleController.articles[index];
+                  final article = _articleController.gitArticles[index];
 
                   return ListTile(
                     title: Text(article.title),

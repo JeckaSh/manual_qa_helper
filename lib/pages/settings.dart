@@ -32,7 +32,19 @@ class _SettingsPageState extends State<SettingsPage> {
               ),
             ),
             Spacer(),
-            ElevatedButton(onPressed: backButton, child: Text('Назад')),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(vertical: 16),
+                  ),
+                  onPressed: backButton,
+                  child: Text('Назад'),
+                ),
+              ),
+            ),
           ],
         ),
       ),

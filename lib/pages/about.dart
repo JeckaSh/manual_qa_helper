@@ -15,7 +15,7 @@ class AboutPage extends StatelessWidget {
       appBar: AppBar(title: Text('О Приложении')),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(12.0),
+          padding: const EdgeInsets.symmetric(horizontal: 8),
           child: Column(
             children: [
               Text(
@@ -26,7 +26,19 @@ class AboutPage extends StatelessWidget {
               SizedBox(height: 5),
               Text('jeckashevelkov@icloud.com'),
               Spacer(),
-              ElevatedButton(onPressed: backButton, child: Text('Назад')),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      padding: EdgeInsets.symmetric(vertical: 16),
+                    ),
+                    onPressed: backButton,
+                    child: Text('Назад'),
+                  ),
+                ),
+              ),
             ],
           ),
         ),

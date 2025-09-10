@@ -22,13 +22,19 @@ class Article extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            Text(article.content),
-            Spacer(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(onPressed: backButton, child: Text('Назад')),
-              ],
+            Expanded(child: article.content),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    padding: EdgeInsets.symmetric(vertical: 16),
+                  ),
+                  onPressed: backButton,
+                  child: Text('Назад'),
+                ),
+              ),
             ),
           ],
         ),

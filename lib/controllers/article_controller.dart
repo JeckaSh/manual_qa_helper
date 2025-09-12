@@ -7,4 +7,8 @@ class ArticleController extends GetxController {
   List<ArticleModel> get gitArticles => ArticleRepository.getAllGitArticles();
 
   ArticleModel getArticleById(int id) => ArticleRepository.getById(id);
+
+  int getArticleIndex(int id) {
+    return articles.indexWhere((articles) => articles.id == id);
+  }
 }

@@ -42,7 +42,7 @@ class Article extends StatelessWidget {
         _articleController.articles.indexWhere((a) => a.id == articleId) + 1;
     //
     return Scaffold(
-      appBar: AppBar(title: Text(article.title)),
+      appBar: AppBar(title: Text(article.title, maxLines: 3)),
       body: SafeArea(
         child: Column(
           children: [

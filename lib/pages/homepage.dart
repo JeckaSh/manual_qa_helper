@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:manual_qa_helper/pages/about.dart';
-import 'package:manual_qa_helper/pages/git_articles.dart';
+//import 'package:manual_qa_helper/pages/git_articles.dart';
 import 'package:manual_qa_helper/pages/manual_qa.dart';
 import 'package:manual_qa_helper/pages/settings.dart';
 
@@ -26,7 +26,7 @@ class MainMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     final menuItems = [
       'Ручное тестирование ПО',
-      'GIT для тестировщиков',
+      //'GIT для тестировщиков',
       'Настройки',
       'О приложении',
     ];
@@ -43,13 +43,13 @@ class MainMenu extends StatelessWidget {
                 case 0:
                   Get.off(() => ManualQaPage());
                   break;
+                // case 1:
+                //   Get.off(() => GitArticlesPage());
+                //   break;
                 case 1:
-                  Get.off(() => GitArticlesPage());
-                  break;
-                case 2:
                   Get.off(() => SettingsPage());
                   break;
-                case 3:
+                case 2:
                   Get.off(() => AboutPage());
                   break;
                 default:

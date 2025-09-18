@@ -16,7 +16,10 @@ class _ArticleWidgetState extends State<ArticleContent> {
       itemBuilder: (context, index) {
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
-          child: Column(children: [widget.article[index]]),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [widget.article[index]],
+          ),
         );
       },
     );

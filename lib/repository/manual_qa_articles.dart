@@ -1,14 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:manual_qa_helper/widgets/article_content.dart';
+import 'package:manual_qa_helper/widgets/code_widget.dart';
+import 'package:manual_qa_helper/widgets/definition_widget.dart';
+import 'package:manual_qa_helper/widgets/spaceline_widget.dart';
 
 // TODO: Сделать класс со стилями текста для заголовков разных уровней и выделения текста
-// TODO: Сделать визуальные виджеты для разделения текста или выделения текста
-// TODO: Сделать страничку с пояснениями виджетов и выделений текста
 class ManualQaArticles {
+  static final article1 = ArticleContent(
+    article: [
+      Text(
+        'На этой странице находятся важные пояснение, которые необходимо знать перед изучением материала.',
+      ),
+      Spaceline(),
+      Text('Код или команда будут выделены в такой блок:'),
+      CodeWidget(code: 'print(hello world!);'),
+      Text('Важное определение в такой:'),
+      DefinitionWidget(definition: 'Я есть определение, запомни меня!'),
+    ],
+  );
   //
   // Введение в тестирование
   //
-  static final article1 = ArticleContent(
+  static final article2 = ArticleContent(
     article: [
       Text(
         'Мы начинаем модуль «Ручное тестирование веб-приложений» с занятия «Введение в тестирование ПО. Методы и виды тестирования». Первое занятие теоретическое, мы познакомимся с профессией «тестировщик» и узнаем, из чего состоит тестирование ПО.',
@@ -22,7 +35,7 @@ class ManualQaArticles {
   //
   // История тестирования
   //
-  static final article2 = ArticleContent(
+  static final article3 = ArticleContent(
     article: [
       Text(
         'История контроля качества начинается задолго до эпохи активного развития разработки ПО - в виде ГОСТов или отделов ОТК на заводе.\nЕсли говорить про разработку ПО и место тестирование в ней, то в 60-70-е годы тестирование было отделено от процесса разработки, в 80-е оно стало проводиться на протяжении всего жизненного цикла разработки ПО.',
@@ -38,7 +51,7 @@ class ManualQaArticles {
   //
   // Что такое тестирование
   //
-  static final article3 = ArticleContent(
+  static final article4 = ArticleContent(
     article: [
       Text(
         'Тестирование - это проверка соответствия между реальным и ожидаемым поведением программы, которая осуществляется на конечном наборе тестов, выбранным определённым образом',
@@ -61,7 +74,7 @@ class ManualQaArticles {
   //
   // Основные понятия в тестировании
   //
-  static final article4 = ArticleContent(
+  static final article5 = ArticleContent(
     article: [
       Text(
         '- Дефект / баг / дефект репорт (Bug Report)\n- Тестовый сценарий (Test Case)\n- Тестовые данные (Test Data)\n- Тест-дизайн (Test Design)',
@@ -83,7 +96,7 @@ class ManualQaArticles {
   //
   // Цели тестирования
   //
-  static final article5 = ArticleContent(
+  static final article6 = ArticleContent(
     article: [
       Text(
         'Цель тестирования - минимизировать количество существующих дефектов в конечном продукте.',
@@ -102,7 +115,7 @@ class ManualQaArticles {
   //
   // Цикл тестирования
   //
-  static final article6 = ArticleContent(
+  static final article7 = ArticleContent(
     article: [
       Text('Попробуем разделить процесс тестирования на этапы.'),
       Text(
@@ -155,7 +168,7 @@ class ManualQaArticles {
   //
   // Уровни и типы тестирования
   //
-  static final article7 = ArticleContent(
+  static final article8 = ArticleContent(
     article: [
       Text('Классификация тестирования'),
       Text(
@@ -201,7 +214,7 @@ class ManualQaArticles {
   //
   // Функциональное тестирование
   //
-  static final article8 = ArticleContent(
+  static final article9 = ArticleContent(
     article: [
       Text('Функциональное тестирование'),
       Text(
@@ -215,7 +228,7 @@ class ManualQaArticles {
   //
   // Тестирование пользовательского интерфейса
   //
-  static final article9 = ArticleContent(
+  static final article10 = ArticleContent(
     article: [
       Text(
         'Тестирование пользовательского интерфейса (GUI Testing) - функциональная проверка интерфейса на соответствие требованиям: размер, шрифт, цвет, вёрстка.',
@@ -225,7 +238,7 @@ class ManualQaArticles {
   //
   // Нефункционального тестирование
   //
-  static final article10 = ArticleContent(
+  static final article11 = ArticleContent(
     article: [
       Text(
         'Цель нефункционального тестирования системы - оценить такие характеристики системы и программного обеспечения, как удобство использования, производительность или безопасность.',
@@ -235,7 +248,7 @@ class ManualQaArticles {
   //
   // Тестирование производительности
   //
-  static final article11 = ArticleContent(
+  static final article12 = ArticleContent(
     article: [
       Text(
         'Тестирование производительности (Performance testing) производится, чтобы определить производительность программного продукта.\nНекоторые из его направлений:',
@@ -255,7 +268,7 @@ class ManualQaArticles {
   //
   // Тестирование удобства пользования
   //
-  static final article12 = ArticleContent(
+  static final article13 = ArticleContent(
     article: [
       Text(
         'Тестирование удобства пользования\n(Usability testing / UX) - Устанавливает степень удобства использования, обучаемости, понятности и привлекательности для пользователей разрабатываемого продукта в контексте заданных условий.',
@@ -265,7 +278,7 @@ class ManualQaArticles {
   //
   // Тестирование безопасности
   //
-  static final article13 = ArticleContent(
+  static final article14 = ArticleContent(
     article: [
       Text(
         'Тестирование безопасности (Safety testing) - тестирование программного продукта с целью определить его безопасность.',
@@ -278,7 +291,7 @@ class ManualQaArticles {
   //
   // Санитарное тестирование
   //
-  static final article14 = ArticleContent(
+  static final article15 = ArticleContent(
     article: [
       Text(
         'После проведения необходимых изменений, таких как исправление бага или дефекта, программное обеспечение необходимо протестировать, что бы подтвердить решение проблемы.',
@@ -291,7 +304,7 @@ class ManualQaArticles {
   //
   // Дымовое тестирование
   //
-  static final article15 = ArticleContent(
+  static final article16 = ArticleContent(
     article: [
       Text(
         'Дымовое тестирование (Smoke testing) - рассматривается как короткий цикл тестов, выполняемый для подтверждения того, что после сборки кода (нового или исправленного) устанавливаемое приложение стартует и выполняет основные функции.',
@@ -301,7 +314,7 @@ class ManualQaArticles {
   //
   // Тестирование сборки
   //
-  static final article16 = ArticleContent(
+  static final article17 = ArticleContent(
     article: [
       Text(
         'Тестирование сборки (Build Verification Test) - определяет, соответствует ли выпущенная версия критериям качества для начала тестирования.',
@@ -314,7 +327,7 @@ class ManualQaArticles {
   //
   // Регрессионное тестирование
   //
-  static final article17 = ArticleContent(
+  static final article18 = ArticleContent(
     article: [
       Text(
         'Регрессионное тестирование (Regression testing) - это вид тестирования, с помощью которого проверяют изменения, сделанные в приложении или окружающей среде (починка дефетка, слияние кода, миграция на другую операционную систему, базу данных), для подтверждения того факта, что существующая ранее функциональность работает, как и прежде.',
@@ -324,7 +337,7 @@ class ManualQaArticles {
   //
   // Тестирование установки
   //
-  static final article18 = ArticleContent(
+  static final article19 = ArticleContent(
     article: [
       Text(
         'Тестирование установки (Installation testing) - проверяет успешную инсталляцию и настройку, а так же обновление или удаление программного обеспечения.',
@@ -337,7 +350,7 @@ class ManualQaArticles {
   //
   // Тестирование локализации
   //
-  static final article19 = ArticleContent(
+  static final article20 = ArticleContent(
     article: [
       Text(
         'Тестирование локализации (Localization testing) - оценивает правильность версии программного продукта с точки зрения языкового и культурного аспекта.\nПроверяем работу приложения для определённых регионов, языков, строк, чисел, дат, валют и прочего.',
@@ -353,7 +366,7 @@ class ManualQaArticles {
   //
   // Конфигурационное тестирование
   //
-  static final article20 = ArticleContent(
+  static final article21 = ArticleContent(
     article: [
       Text(
         'Конфигурационное тестирование (Configuration testing) - проверяет работу программного обеспечения при различных конфигурациях системы: заявленных платформах, поддерживаемых драйверах, при различных конфигурациях компьютеров и т.д.',
@@ -364,7 +377,7 @@ class ManualQaArticles {
   //
   // Тестирование доступности
   //
-  static final article21 = ArticleContent(
+  static final article22 = ArticleContent(
     article: [
       Text(
         'Тестирование доступности (Accessibility testing) - проверяет приложение на соответствие рекомендациям документа W3C, а именно положению Web Content Accessibility (WCAG) 2.1',
@@ -377,7 +390,7 @@ class ManualQaArticles {
   //
   // Выводы по теме введение в тестирование
   //
-  static final article22 = ArticleContent(
+  static final article23 = ArticleContent(
     article: [
       Text(
         'Теперь мы начали узнавать основные понятия, важные для тестировщика, и немного приблизились к понимаю того, чем же на самом деле занимается специалист по качеству.',

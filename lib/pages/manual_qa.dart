@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:manual_qa_helper/controllers/article_controller.dart';
 import 'package:manual_qa_helper/pages/article.dart';
 import 'package:manual_qa_helper/pages/homepage.dart';
+import 'package:manual_qa_helper/widgets/spaceline_widget.dart';
 
 class ManualQaPage extends StatelessWidget {
   ManualQaPage({super.key});
@@ -26,9 +27,14 @@ class ManualQaPage extends StatelessWidget {
                 itemBuilder: (context, index) {
                   final article = _articleController.articles[index];
 
-                  return ListTile(
-                    title: Text(article.title),
-                    onTap: () => Get.off(Article(), arguments: article.id),
+                  return Column(
+                    children: [
+                      Spaceline(),
+                      ListTile(
+                        title: Text(article.title),
+                        onTap: () => Get.off(Article(), arguments: article.id),
+                      ),
+                    ],
                   );
                 },
               ),

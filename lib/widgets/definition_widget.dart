@@ -8,6 +8,7 @@ class DefinitionWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
+        // TODO: Поменять цвет определения на менее вырвиглазный
         color: Colors.orange,
         border: Border.all(
           width: 2,

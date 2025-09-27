@@ -68,58 +68,170 @@ class ArticleRepository {
     ),
     ArticleModel(
       id: 13,
-      title: 'Тестирование удобства пользования',
+      title: 'Нагрузочное тестирование',
       content: ManualQaArticles.article13,
     ),
+
     ArticleModel(
       id: 14,
-      title: 'Тестирование безопасности',
+      title: 'Объёмное тестирование',
       content: ManualQaArticles.article14,
     ),
+
     ArticleModel(
       id: 15,
-      title: 'Санитарное тестирование',
+      title: 'Стрессовое тестирование',
       content: ManualQaArticles.article15,
     ),
     ArticleModel(
       id: 16,
-      title: 'Дымовое тестирование',
+      title: 'Тестирование удобства пользования',
       content: ManualQaArticles.article16,
     ),
     ArticleModel(
       id: 17,
-      title: 'Тестирование сборки',
+      title: 'Тестирование безопасности',
       content: ManualQaArticles.article17,
     ),
     ArticleModel(
       id: 18,
-      title: 'Регрессионное тестирование',
+      title: 'Санитарное тестирование',
       content: ManualQaArticles.article18,
     ),
     ArticleModel(
       id: 19,
-      title: 'Тестирование установки',
+      title: 'Дымовое тестирование',
       content: ManualQaArticles.article19,
     ),
     ArticleModel(
       id: 20,
-      title: 'Тестирование локализации',
+      title: 'Тестирование сборки',
       content: ManualQaArticles.article20,
     ),
     ArticleModel(
       id: 21,
-      title: 'Конфигурационное тестирование',
+      title: 'Регрессионное тестирование',
       content: ManualQaArticles.article21,
     ),
     ArticleModel(
       id: 22,
-      title: 'Тестирование доступности',
+      title: 'Тестирование установки',
       content: ManualQaArticles.article22,
     ),
     ArticleModel(
       id: 23,
-      title: 'Выводы по теме введение в тестирование',
+      title: 'Тестирование локализации',
       content: ManualQaArticles.article23,
+    ),
+    ArticleModel(
+      id: 24,
+      title: 'Конфигурационное тестирование',
+      content: ManualQaArticles.article24,
+    ),
+    ArticleModel(
+      id: 25,
+      title: 'Тестирование доступности',
+      content: ManualQaArticles.article25,
+    ),
+    ArticleModel(
+      id: 26,
+      title: 'Выводы по теме введение в тестирование',
+      content: ManualQaArticles.article26,
+    ),
+    ArticleModel(
+      id: 27,
+      title: 'Введение в тест-дизайн',
+      content: ManualQaArticles.article27,
+    ),
+    ArticleModel(
+      id: 28,
+      title: 'Методы чёрного ящика',
+      content: ManualQaArticles.article28,
+    ),
+    ArticleModel(
+      id: 29,
+      title: 'Эквивалентные значения',
+      content: ManualQaArticles.article29,
+    ),
+    ArticleModel(
+      id: 30,
+      title: 'Граничные значения',
+      content: ManualQaArticles.article30,
+    ),
+    ArticleModel(
+      id: 31,
+      title: 'Тестирование критического пути',
+      content: ManualQaArticles.article31,
+    ),
+    ArticleModel(
+      id: 32,
+      title: 'Тестирование на основе таблиц принятия решений',
+      content: ManualQaArticles.article32,
+    ),
+    ArticleModel(
+      id: 33,
+      title: 'Таблицы переходов',
+      content: ManualQaArticles.article33,
+    ),
+    ArticleModel(
+      id: 34,
+      title: 'Тестирование с помощью вариантов использования',
+      content: ManualQaArticles.article34,
+    ),
+    ArticleModel(
+      id: 35,
+      title: 'Методы белого ящика',
+      content: ManualQaArticles.article35,
+    ),
+    ArticleModel(
+      id: 36,
+      title: 'Unit тесты',
+      content: ManualQaArticles.article36,
+    ),
+    ArticleModel(
+      id: 37,
+      title: 'Интеграционные проверки',
+      content: ManualQaArticles.article37,
+    ),
+    ArticleModel(
+      id: 38,
+      title: 'Системное тестирование компонентов',
+      content: ManualQaArticles.article38,
+    ),
+    ArticleModel(
+      id: 39,
+      title: 'Проверка архитектуры безопасности функционирования ПО',
+      content: ManualQaArticles.article39,
+    ),
+    ArticleModel(
+      id: 40,
+      title: 'Метод серого ящика',
+      content: ManualQaArticles.article40,
+    ),
+    ArticleModel(
+      id: 41,
+      title: 'На основе опыта',
+      content: ManualQaArticles.article41,
+    ),
+    ArticleModel(
+      id: 42,
+      title: 'Метод предположения об ошибках',
+      content: ManualQaArticles.article42,
+    ),
+    ArticleModel(
+      id: 43,
+      title: 'Метод исследовательского тестирования ad-hoc тестирование',
+      content: ManualQaArticles.article43,
+    ),
+    ArticleModel(
+      id: 44,
+      title: 'Тестирование на основе чек-листов',
+      content: ManualQaArticles.article44,
+    ),
+    ArticleModel(
+      id: 45,
+      title: 'Вывод по теме тест-дизайн',
+      content: ManualQaArticles.article45,
     ),
   ];
 

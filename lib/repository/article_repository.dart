@@ -233,6 +233,31 @@ class ArticleRepository {
       title: 'Вывод по теме тест-дизайн',
       content: ManualQaArticles.article45,
     ),
+    ArticleModel(
+      id: 46,
+      title: 'Артефакты тестирования. Тестовая документация',
+      content: ManualQaArticles.article46,
+    ),
+    ArticleModel(
+      id: 47,
+      title: 'Тест-план',
+      content: ManualQaArticles.article47,
+    ),
+    ArticleModel(
+      id: 48,
+      title: 'Чеклисты',
+      content: ManualQaArticles.article48,
+    ),
+    ArticleModel(
+      id: 49,
+      title: 'Тест-кейсы',
+      content: ManualQaArticles.article49,
+    ),
+    ArticleModel(
+      id: 50,
+      title: 'Тест-сьюты',
+      content: ManualQaArticles.article50,
+    ),
   ];
 
   static final List<ArticleModel> _gitArticles = [];

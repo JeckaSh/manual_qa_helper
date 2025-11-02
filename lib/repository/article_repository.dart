@@ -258,6 +258,46 @@ class ArticleRepository {
       title: 'Тест-сьюты',
       content: ManualQaArticles.article50,
     ),
+    ArticleModel(
+      id: 51,
+      title: 'Артефакты тестирования. Дефекты',
+      content: ManualQaArticles.article51,
+    ),
+    ArticleModel(
+      id: 52,
+      title: 'Баг-репорт',
+      content: ManualQaArticles.article52,
+    ),
+    ArticleModel(
+      id: 53,
+      title: 'Оформление баг-репортов',
+      content: ManualQaArticles.article53,
+    ),
+    ArticleModel(
+      id: 54,
+      title: 'Градация серьёзности баг-репортов',
+      content: ManualQaArticles.article54,
+    ),
+    ArticleModel(
+      id: 55,
+      title: 'Типы багов',
+      content: ManualQaArticles.article55,
+    ),
+    ArticleModel(
+      id: 56,
+      title: 'Локализация дефектов',
+      content: ManualQaArticles.article56,
+    ),
+    ArticleModel(
+      id: 57,
+      title: 'Отчёты о тестировании',
+      content: ManualQaArticles.article57,
+    ),
+    ArticleModel(
+      id: 58,
+      title: 'Тестирование требований',
+      content: ManualQaArticles.article58,
+    ),
   ];
 
   static final List<ArticleModel> _gitArticles = [];

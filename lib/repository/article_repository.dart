@@ -298,6 +298,66 @@ class ArticleRepository {
       title: 'Тестирование требований',
       content: ManualQaArticles.article58,
     ),
+    ArticleModel(
+      id: 59,
+      title: 'Инструменты тестирования',
+      content: ManualQaArticles.article59,
+    ),
+    ArticleModel(
+      id: 60,
+      title: 'Основы клиент-серверного взаимодействия',
+      content: ManualQaArticles.article60,
+    ),
+    ArticleModel(
+      id: 61,
+      title: 'Клиент и сервер',
+      content: ManualQaArticles.article61,
+    ),
+    ArticleModel(
+      id: 62,
+      title: 'Основы веб-технологий',
+      content: ManualQaArticles.article62,
+    ),
+    ArticleModel(
+      id: 63,
+      title: 'Взаимодействие клиента и сервера',
+      content: ManualQaArticles.article63,
+    ),
+    ArticleModel(
+      id: 64,
+      title: 'Инструменты тестирования клиента и сервера',
+      content: ManualQaArticles.article64,
+    ),
+    ArticleModel(
+      id: 65,
+      title: 'DevTools для тестировщика',
+      content: ManualQaArticles.article65,
+    ),
+    ArticleModel(
+      id: 66,
+      title: 'Панель Elements',
+      content: ManualQaArticles.article66,
+    ),
+    ArticleModel(
+      id: 67,
+      title: 'Панель Console',
+      content: ManualQaArticles.article67,
+    ),
+    ArticleModel(
+      id: 68,
+      title: 'Панель Sources',
+      content: ManualQaArticles.article68,
+    ),
+    ArticleModel(
+      id: 69,
+      title: 'Панель Network',
+      content: ManualQaArticles.article69,
+    ),
+    ArticleModel(
+      id: 70,
+      title: 'Особенности тестирования web-приложений',
+      content: ManualQaArticles.article70,
+    ),
   ];
 
   static final List<ArticleModel> _gitArticles = [];

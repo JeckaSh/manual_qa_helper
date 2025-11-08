@@ -200,7 +200,7 @@ class ArticleRepository {
     ),
     ArticleModel(
       id: 39,
-      title: 'Проверка архитектуры безопасности функционирования ПО',
+      title: 'Безопасность функционирования ПО',
       content: ManualQaArticles.article39,
     ),
     ArticleModel(
@@ -325,7 +325,7 @@ class ArticleRepository {
     ),
     ArticleModel(
       id: 64,
-      title: 'Инструменты тестирования клиента и сервера',
+      title: 'Основы SQL',
       content: ManualQaArticles.article64,
     ),
     ArticleModel(
@@ -357,6 +357,41 @@ class ArticleRepository {
       id: 70,
       title: 'Особенности тестирования web-приложений',
       content: ManualQaArticles.article70,
+    ),
+    ArticleModel(
+      id: 71,
+      title: 'Особенности тестирования клиент-сервера',
+      content: ManualQaArticles.article71,
+    ),
+    ArticleModel(
+      id: 72,
+      title: 'API-тестирование',
+      content: ManualQaArticles.article72,
+    ),
+    ArticleModel(
+      id: 73,
+      title: 'Инструменты тестирования API',
+      content: ManualQaArticles.article73,
+    ),
+    ArticleModel(
+      id: 74,
+      title: 'Инструменты для нагрузочного тестирования',
+      content: ManualQaArticles.article74,
+    ),
+    ArticleModel(
+      id: 75,
+      title: 'Инструменты для тестирования безопасности',
+      content: ManualQaArticles.article75,
+    ),
+    ArticleModel(
+      id: 76,
+      title: 'Среды разработки',
+      content: ManualQaArticles.article76,
+    ),
+    ArticleModel(
+      id: 77,
+      title: 'Виртуализация',
+      content: ManualQaArticles.article77,
     ),
   ];
 

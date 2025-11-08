@@ -25,6 +25,8 @@ class AboutPage extends StatelessWidget {
               Text('По всем вопросам можно написать на почту:'),
               SizedBox(height: 5),
               Text('jeckashevelkov@icloud.com'),
+              SizedBox(height: 10),
+              Text('Версия приложения 0.15'),
               Spacer(),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),

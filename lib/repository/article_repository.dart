@@ -393,17 +393,30 @@ class ArticleRepository {
       title: 'Виртуализация',
       content: ManualQaArticles.article77,
     ),
+    ArticleModel(
+      id: 78,
+      title: 'Жизненный цикл разработки ПО',
+      content: ManualQaArticles.article78,
+    ),
+    ArticleModel(
+      id: 79,
+      title: 'Модели разработки ПО',
+      content: ManualQaArticles.article79,
+    ),
+    ArticleModel(
+      id: 80,
+      title: 'Методологии разработки ПО',
+      content: ManualQaArticles.article80,
+    ),
+    ArticleModel(
+      id: 81,
+      title: 'Жизненный цикл дефекта',
+      content: ManualQaArticles.article81,
+    ),
   ];
-
-  static final List<ArticleModel> _gitArticles = [];
 
   static List<ArticleModel> getAllArticles() => _articles;
   static ArticleModel getById(int id) {
     return _articles.firstWhere((articles) => articles.id == id);
-  }
-
-  static List<ArticleModel> getAllGitArticles() => _gitArticles;
-  static ArticleModel getGitArticleById(int id) {
-    return _gitArticles.firstWhere((gitArticles) => gitArticles.id == id);
   }
 }

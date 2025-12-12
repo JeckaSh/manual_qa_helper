@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:manual_qa_helper/pages/about.dart';
+import 'package:manual_qa_helper/pages/interview.dart';
 //import 'package:manual_qa_helper/pages/git_articles.dart';
 import 'package:manual_qa_helper/pages/manual_qa.dart';
 import 'package:manual_qa_helper/pages/settings.dart';
@@ -29,6 +30,8 @@ class MainMenu extends StatelessWidget {
       //'GIT для тестировщиков',
       'Настройки',
       'О приложении',
+      'Вопросы для собеседования',
+      // Квиз с вопросами
     ];
 
     return Scaffold(
@@ -43,15 +46,14 @@ class MainMenu extends StatelessWidget {
                 case 0:
                   Get.off(() => ManualQaPage());
                   break;
-                // case 1:
-                //   Get.off(() => GitArticlesPage());
-                //   break;
                 case 1:
                   Get.off(() => SettingsPage());
                   break;
                 case 2:
                   Get.off(() => AboutPage());
                   break;
+                case 3:
+                  Get.off(() => InterviewPage());
                 default:
               }
             },

@@ -26,7 +26,11 @@ class AboutPage extends StatelessWidget {
               SizedBox(height: 5),
               Text('jeckashevelkov@icloud.com'),
               SizedBox(height: 10),
-              Text('Версия приложения 0.15'),
+              Text('Версия приложения 0.16'),
+              // credits:
+              // нетология
+              // qarocks
+              // алиса ai
               Spacer(),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),

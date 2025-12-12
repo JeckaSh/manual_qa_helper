@@ -4,7 +4,6 @@ import 'package:manual_qa_helper/repository/article_repository.dart';
 
 class ArticleController extends GetxController {
   List<ArticleModel> get articles => ArticleRepository.getAllArticles();
-  List<ArticleModel> get gitArticles => ArticleRepository.getAllGitArticles();
 
   ArticleModel getArticleById(int id) => ArticleRepository.getById(id);
 
